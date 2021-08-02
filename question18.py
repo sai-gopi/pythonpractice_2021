@@ -1,0 +1,5 @@
+distance_cites = int(input("enter the distance(km): "))
+km_to_meters = (distance_cites * 1000)
+km_to_centimeters = (distance_cites * 10**-5)
+print(f"kilometers in meters : {km_to_meters}")
+print(f"kilometers in centimetrs :{km_to_centimeters}")
